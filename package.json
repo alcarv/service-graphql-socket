@@ -1,0 +1,27 @@
+{
+  "name": "service-graphql-socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon --watch 'src/' --exec 'ts-node src/index.ts' -e ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.10.0",
+    "@prisma/client": "^5.7.1",
+    "@types/cors": "^2.8.17",
+    "@types/ws": "^8.5.10",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "graphql": "^16.8.1",
+    "graphql-subscriptions": "^2.0.0",
+    "graphql-ws": "^5.14.3",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "ws": "^8.16.0"
+  }
+}
